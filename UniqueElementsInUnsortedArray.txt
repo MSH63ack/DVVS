@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-	int a[7] = { 7,2,2,4,5,6,7 };
+	int a[7] = { 3,1,1,4,1,6,7 };
 	int n = 7; // Number of elements in the array 
 	int max = 0;
 	int i, k, j = 0;
@@ -38,8 +38,6 @@ int main()
 		--max;
 		flag = 0;
 	}
-
 	cout << "Unique elements " + count << endl;
-
 	system("pause");
 }
