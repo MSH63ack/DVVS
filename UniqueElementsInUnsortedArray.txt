@@ -39,7 +39,5 @@ int main()
 		flag = 0;
 	}
 
-	cout << "Unique elements " + count << endl;
-
 	system("pause");
 }
