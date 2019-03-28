@@ -1,6 +1,8 @@
 #include <iostream> 
-#include <stdio.h>
+#include <cstdio>
+
 using namespace std;
+
 int main()
 {
 	int a[7] = { 7,2,2,4,5,6,7 };
@@ -36,7 +38,8 @@ int main()
 		--max;
 		flag = 0;
 	}
-	
-	printf("Unique elements : %d\n", count);
+
+	cout << "Unique elements " + count << endl;
+
 	system("pause");
 }
