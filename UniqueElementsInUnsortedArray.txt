@@ -38,6 +38,8 @@ int main()
 		--max;
 		flag = 0;
 	}
+	
 	cout << "Unique elements " + count << endl;
 	system("pause");
+	return 0;
 }
